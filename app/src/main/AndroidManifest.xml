@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="闲时光"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name="com.admin.activity.AdminPersonal"></activity>
+        <activity android:name="com.user.activity.AddFankui" />
+        <activity android:name="com.guanli.MainActivity4" />
+        <activity android:name="com.admin.activity.AdminMyRelease" />
+        <activity android:name="com.user.activity.MyRelease" />
+        <activity android:name="com.user.activity.Liaotian" />
+        <activity android:name="com.user.activity.AddXiaoyuan" />
+        <activity android:name="com.admin.activity.AdminJianzhiDetail" />
+        <activity android:name="com.admin.activity.AddJianzhi" />
+        <activity android:name="com.admin.activity.MainActivity3" />
+        <activity android:name="com.user.activity.Password" />
+        <activity android:name="com.user.activity.Personal" />
+        <activity android:name="com.user.activity.XiaoyuanDetail" />
+        <activity android:name="com.user.activity.JianzhiDetail" />
+        <activity android:name="com.user.MainActivity2" />
+        <activity android:name="com.Register" />
+        <activity android:name="com.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
